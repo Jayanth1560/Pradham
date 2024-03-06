@@ -1,0 +1,3 @@
+to run client side json files..
+--> npm install -g json-server
+--> to access it  -- npx json-server -p 3500 -w src/data/db.json
