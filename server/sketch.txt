@@ -1,0 +1,11 @@
+- creating a node project
+- installing required modules :  expressjs,passportjs,mongoose
+- setup a server
+- setup a login/signup/logout/home
+- setup database: 
+    Require mongoose module
+    Connect to database URI
+    Set up event listeners
+    Create schema
+    Compile model from schema
+    Create and save document
