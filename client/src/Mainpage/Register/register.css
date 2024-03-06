@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* Center the login form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form styles */
+form {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+/* Input styles */
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 0.6em;
+}
+
+input[type="text"],
+input[type="password"]{
+  width: calc(100% - 2px);
+  padding: 3px;
+  margin-bottom: 10px;
+  border: px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9em;
+  
+}
+/* Increase Gmail input font size */
+input[type="email"] {
+  font-size: 0.9em; /* You can adjust the value as needed */
+  padding: 3px; /* Adjust padding as needed */
+  width: calc(100% - 2px); /* Adjust width to fit within the container */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  border-radius: 5px;
+  border:px solid #ccc;;
+}
+
+
+/* Reduce password input font size */
+input[type="password"] {
+  font-size: 0.9em; /* You can adjust the value as needed */
+  padding: 3px; /* Adjust padding as needed */
+  width: calc(100% - 2px); /* Adjust width to fit within the container */
+  margin-bottom: 10px; /* Adjust margin as needed */
+  border-radius: 5px;
+}
+
+/* Button styles */
+button {
+  font-size: 0.9em;
+  width:  calc(100% - 2px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0c0c0c;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1f1fe5;
+}
+
+/* Error message styles (you can add this if you implement error handling) */
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+.raj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #666666;
+}
+
+.raj h4 {
+  font-size: 2px;
+  margin-right: 10px; /* Add some spacing between the text and the link */
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+/* Reduce error message font size */
+span.errormessage {
+  font-size: 0.6em; /* You can adjust the value as needed */
+  color: red;
+}
+
